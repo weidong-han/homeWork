@@ -1,15 +1,13 @@
 package com.work.swordhome.web;
 
-import com.qunar.business.sword.AopTest.PointImp;
-import com.qunar.business.sword.service.more_extends.TestMoreExtends;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.work.swordhome.AopTest.PointImp;
+import com.work.swordhome.service.more_extends.TestMoreExtends;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import java.util.Map;
-import java.util.jar.Attributes;
 
 /**
  * Created by weidong.han on 2019/7/16.

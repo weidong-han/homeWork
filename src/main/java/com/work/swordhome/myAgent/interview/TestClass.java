@@ -18,7 +18,7 @@ public class TestClass {
         //getArr(classes.getMethods());
         //getArr(classes.getDeclaredMethods());
 
-//        Class cl = Class.forName("com.qunar.business.sword.myAgent.interview.Test01");
+//        Class cl = Class.forName("com.work.swordhome.myAgent.interview.Test01");
 //        Method a = cl.getDeclaredMethod("t",String.class);
 //        a.invoke(cl.newInstance(),"");
     }

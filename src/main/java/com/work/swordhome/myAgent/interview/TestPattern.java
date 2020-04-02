@@ -39,7 +39,7 @@ public class TestPattern {
         System.out.println("abc0".matches("[a-z0-9A-Z]+"));
         System.out.println(Pattern.matches("[a-z0-9A-Z]","abc0"));
         String emailReg = "^[a-z0-9A-Z]+[- | a-z0-9A-Z . _]+@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-z]{2,}$";
-        System.out.println("weidong.han_001@qunar.com".matches(emailReg));
+        System.out.println("weidong.han_001@163.com".matches(emailReg));
     }
 
 }

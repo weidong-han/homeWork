@@ -9,7 +9,7 @@ import org.aspectj.lang.annotation.Pointcut;
 
 public class TestPointCut {
 
-    @Pointcut("execution(public * com.qunar.business.sword.AopTest.PointImp.*(..))")
+    //@Pointcut("execution(public * com.business.sword.AopTest.PointImp.*(..))")
     public void pointCut01(){}
 
 

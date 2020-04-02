@@ -16,7 +16,7 @@ public class TestIoc {
     public TestIoc(){
         System.out.println("spring初始化创建对象！==========================================");
         try {
-            Class cl = Class.forName("com.qunar.business.sword.service.TestIoc");
+            Class cl = Class.forName("com.work.swordhome.service.TestIoc");
             System.out.println(cl);
         } catch (ClassNotFoundException e) {
 
